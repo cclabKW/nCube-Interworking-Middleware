@@ -1,7 +1,7 @@
 # nCube-Interworking-Middleware
 
 ## Introduction
-The nCube-Interworking-Middleware project is software for middleware within IoT service platform. The purpose of this project is to provide M2M (Machine-to-Machine) communication service between heterogeneous IoT platforms. It is working base on oneM2M MQTT (Message Queuing Telemetry Transport. This middleware performs device registration and control requests for Alljoyn and Philips Hue platforms. nCube-Interworking-Middleware was developed based on open source Eclipse for oneM2M middleware service. 
+The nCube-Interworking-Middleware project is software for middleware within IoT service platform. The purpose of this project is to provide M2M (Machine-to-Machine) communication service between heterogeneous IoT platforms. It is working base on oneM2M MQTT (Message Queuing Telemetry Transport). This middleware performs device registration and control requests for Alljoyn and Philips Hue platforms. nCube-Interworking-Middleware was developed based on open source Eclipse for oneM2M middleware service. 
 
 ## Platform Structure
 nCube : Interworking Middleware communicates with Mobius using specific Forwarding Topic as MQTT protocol. Alljoyn products and Philips Hue devices can be controlled through the internal interlocking module implemented using the device manufacturer's API.
